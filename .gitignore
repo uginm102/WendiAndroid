@@ -1,0 +1,53 @@
+# Built development files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the Local Studio Build Process
+/build
+/*/build
+
+# Android Studio local configuration files (sizes, paths, etc)
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/nav/
+/.idea/assetWizardSettings.xml
+.navigation/
+
+# Signing files
+*.jks
+*.keystore
+*.p12
+
+# External native build folder
+.externalNativeBuild
+.cxx/
+
+# NDK backup files
+ndkBuild/
+
+# Kotlin / Java compilation specific
+*.class
+/captures/
+
+# macOS system files (Crucial since you are on a Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Log files
+*.log
+
+# Secrets configuration files (if you use them for API keys)
+secrets.properties
