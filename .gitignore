@@ -3,6 +3,8 @@
 *.aar
 *.ap_
 *.aab
+.idea/vcs.xml
+.dea/
 
 # Files for the Local Studio Build Process
 /build
